@@ -112,7 +112,7 @@ You’ve successfully set up a home lab using Elastic SIEM with Parrot OS, confi
 
 ### Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/satyam-pathania/)
+- [LinkedIn](https://www.linkedin.com/in/ayushranaa/)
 
 Thank you for exploring this guide! Feel free to reach out with any questions or feedback.
 

@@ -1,7 +1,6 @@
 # Home-SIEM-Lab-Setup
 Guide to set a SIEM Lab at home hassel free
 
-## Elastic SIEM Lab Project
 
 ### Overview
 
@@ -30,11 +29,10 @@ This project demonstrates how to set up a home lab for Elastic Stack Security In
 
 #### 2. Setting Up the Parrot OS VM
 
-1. **Download Parrot OS**: Get the Parrot Security Edition from [Parrot OS](https://www.parrotsec.org/download/).
+1. **Download Kali Linux**: Get the Kali Virtual Machine Edition [(from https://www.kali.org/get-kali/#kali-platforms)]
 2. **Create VM**:
-   - In VirtualBox or VMware, create a new VM using the downloaded ISO.
-   - Follow on-screen prompts to install Parrot OS.
-   - Log in with your chosen credentials.
+   - In VirtualBox or VMware, extract the Kali VM and acces it through virtualbox or VMware
+   - Log in with your chosen credentials: Username = kali Password = kali
 
 #### 3. Setting Up the Elastic Agent
 
@@ -43,8 +41,8 @@ This project demonstrates how to set up a home lab for Elastic Stack Security In
 2. **Search for Elastic Defend**:
    - Find and click "Elastic Defend."
 3. **Install Agent**:
-   - Follow instructions to install the agent on Parrot OS VM.
-   - Run the provided command in Parrot OS terminal.
+   - Follow instructions to install the agent on Kali Linux VM.
+   - Run the provided command in Kali Linux terminal.
 4. **Verify Installation**:
    - Check agent status: `sudo systemctl status elastic-agent.service`
 
